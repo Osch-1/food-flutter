@@ -1,0 +1,29 @@
+name: food_ordering
+description: Food ordering application.
+
+version: 1.0.0+1
+
+environment:
+  sdk: "2.8.0-dev.8.0.flutter-fd992e423e"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  intl: 0.16.1
+  http: 0.12.0+2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  intl_translation: 0.17.9
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/app_bar_logo.png
+    - assets/images/salad.png
+    - assets/images/soup.png
+    - assets/images/roast.png
+    - assets/images/garnish.png

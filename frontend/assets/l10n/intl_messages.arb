@@ -1,0 +1,89 @@
+{
+  "@@last_modified": "2020-01-24T20:55:10.931824",
+  "app_title": "app_title",
+  "@app_title": {
+    "description": "Application title",
+    "type": "text",
+    "placeholders": {}
+  },
+  "select_user": "select_user",
+  "@select_user": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "short_select_user": "short_select_user",
+  "@short_select_user": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "select_locale": "select_locale",
+  "@select_locale": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "account": "account",
+  "@account": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "camera": "camera",
+  "@camera": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "call_to_order": "call_to_order",
+  "@call_to_order": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "salad": "salad",
+  "@salad": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "soup": "soup",
+  "@soup": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "roast": "roast",
+  "@roast": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "short_roast": "short_roast",
+  "@short_roast": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "garnish": "garnish",
+  "@garnish": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "price": "price",
+  "@price": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "weight": "weight",
+  "@weight": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "weight_unit_symbol": "weight_unit_symbol",
+  "@weight_unit_symbol": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "order_for_today": "order_for_today",
+  "@order_for_today": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "monthly_report": "monthly_report",
+  "@monthly_report": {
+    "type": "text",
+    "placeholders": {}
+  }
+}

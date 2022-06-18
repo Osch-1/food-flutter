@@ -1,0 +1,89 @@
+{
+  // See http://go.microsoft.com/fwlink/?LinkId=733558
+  // for the documentation about the tasks.json format
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Build for the Web (develop)",
+      "command": "flutter build web -t lib/main_develop.dart",
+      "type": "shell",
+      "isBackground": true,
+      "problemMatcher": [],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    },
+    {
+      "label": "Build for the Web (production)",
+      "command": "flutter build web -t lib/main_production.dart",
+      "type": "shell",
+      "isBackground": true,
+      "problemMatcher": [],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    },
+    {
+      "label": "Build localizations assets",
+      "command": "flutter pub run intl_translation:extract_to_arb --output-dir=assets/l10n lib/l10n/app_localizations.dart",
+      "type": "shell",
+      "isBackground": true,
+      "problemMatcher": [],
+      "group": "build"
+    },
+    {
+      "label": "Build localizations",
+      "command": "flutter pub run intl_translation:generate_from_arb --output-dir=lib/l10n --no-use-deferred-loading lib/l10n/app_localizations.dart assets/l10n/intl_ru.arb assets/l10n/intl_en.arb",
+      "type": "shell",
+      "isBackground": true,
+      "problemMatcher": [],
+      "group": "build"
+    },
+    {
+      "label": "Test",
+      "command": "flutter test",
+      "type": "shell",
+      "isBackground": true,
+      "problemMatcher": [],
+      "group": {
+        "kind": "test",
+        "isDefault": true
+      }
+    },
+    {
+      "label": "Run static analyzer",
+      "command": "flutter analyze",
+      "type": "shell",
+      "isBackground": true,
+      "problemMatcher": [],
+      "group": "test"
+    },
+    {
+      "label": "Check code formatting",
+      "command": "flutter format --dry-run .",
+      "type": "shell",
+      "isBackground": true,
+      "problemMatcher": [],
+      "group": "test"
+    },
+    {
+      "label": "Run code formatter",
+      "command": "flutter format .",
+      "type": "shell",
+      "isBackground": true,
+      "problemMatcher": [],
+      "group": "test"
+    },
+    {
+      "label": "Run pre-release testing and validation",
+      "dependsOn": ["Test", "Run static analyzer", "Check code formatting"],
+      "dependsOrder": "sequence",
+      "type": "shell",
+      "isBackground": true,
+      "problemMatcher": [],
+      "group": "test"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  // Editor
+  "[yaml]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.formatOnSave": true,
+  "editor.tabCompletion": "on",
+  "editor.snippetSuggestions": "top",
+  "editor.rulers": [80],
+  // Code Spell Checker Configuration
+  "cSpell.diagnosticLevel": "Warning",
+  "cSpell.ignorePaths": [".dart_tool", "**/build", ".vs", "**/.git"],
+  // Files
+  "files.exclude": {
+    "**/.git": true,
+    "**/.dart_tool": true,
+    "**/.packages": true,
+    "**/build": true,
+    ".vs": true
+  }
+}

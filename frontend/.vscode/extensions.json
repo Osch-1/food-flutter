@@ -1,0 +1,14 @@
+{
+  "recommendations": [
+    "coenraads.bracket-pair-colorizer-2",
+    "streetsidesoftware.code-spell-checker",
+    "dart-code.dart-code",
+    "dart-code.flutter",
+    "ybaumes.highlight-trailing-white-spaces",
+    "oderwat.indent-rainbow",
+    "esbenp.prettier-vscode",
+    "jeroen-meijer.pubspec-assist",
+    "2gua.rainbow-brackets",
+    "wayou.vscode-todo-highlight"
+  ]
+}

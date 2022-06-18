@@ -1,0 +1,93 @@
+{
+  "@@locale": "ru",
+  "app_title": "Заказ обедов",
+  "@app_title": {
+    "description": "Application title",
+    "type": "text"
+  },
+  "select_user": "Выберите пользователя",
+  "@select_user": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "short_select_user": "Выберите\nпользователя",
+  "@short_select_user": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "select_locale": "Выберите язык",
+  "@select_locale": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "account": "Личный кабинет",
+  "@account": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "camera": "Камера кухни",
+  "@camera": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "welcome": "Добро пожаловать в сервис заказа еды.",
+  "@welcome": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "call_to_order": "Закажите обед на",
+  "@call_to_order": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "salad": "Салат",
+  "@salad": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "soup": "Суп",
+  "@soup": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "roast": "Второе блюдо",
+  "@roast": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "short_roast": "Второе",
+  "@short_roast": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "garnish": "Гарнир",
+  "@garnish": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "price": "Цена",
+  "@price": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "weight": "Вес",
+  "@weight": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "weight_unit_symbol": "г",
+  "@weight_unit_symbol": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "order_for_today": "Заказ на сегодня",
+  "@order_for_today": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "monthly_report": "Отчёт за месяц",
+  "@monthly_report": {
+    "type": "text",
+    "placeholders": {}
+  }
+}

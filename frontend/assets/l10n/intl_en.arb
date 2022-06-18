@@ -1,0 +1,93 @@
+{
+  "@@locale": "en",
+  "app_title": "Food ordering",
+  "@app_title": {
+    "description": "Application title",
+    "type": "text"
+  },
+  "select_user": "Select user",
+  "@select_user": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "short_select_user": "Select\nuser",
+  "@short_select_user": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "select_locale": "Select language",
+  "@select_locale": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "account": "Account",
+  "@account": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "camera": "Kitchen camera",
+  "@camera": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "welcome": "Welcome to food ordering service.",
+  "@welcome": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "call_to_order": "Order food for",
+  "@call_to_order": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "salad": "Salad",
+  "@salad": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "soup": "Soup",
+  "@soup": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "roast": "Roast",
+  "@roast": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "short_roast": "Roast",
+  "@short_roast": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "garnish": "Garnish",
+  "@garnish": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "price": "Price",
+  "@price": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "weight": "Weight",
+  "@weight": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "weight_unit_symbol": "g",
+  "@weight_unit_symbol": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "order_for_today": "Order for today",
+  "@order_for_today": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "monthly_report": "Monthly report",
+  "@monthly_report": {
+    "type": "text",
+    "placeholders": {}
+  }
+}
